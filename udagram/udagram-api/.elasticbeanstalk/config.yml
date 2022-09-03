@@ -1,8 +1,6 @@
 branch-defaults:
   default:
     environment: Udagram-env
-  master:
-    environment: Udagram-env
 environment-defaults:
   Udagram-env:
     branch: null
@@ -17,5 +15,5 @@ global:
   platform_name: null
   platform_version: null
   profile: null
-  sc: git
+  sc: null
   workspace_type: Application
