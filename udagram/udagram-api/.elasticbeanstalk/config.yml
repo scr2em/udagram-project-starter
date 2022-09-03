@@ -1,14 +1,14 @@
 branch-defaults:
   default:
-    environment: Udagram-env
+    environment: Egfwdudagram-env
 deploy:
   artifact: www/Archive.zip
 environment-defaults:
-  Udagram-env:
+  Egfwdudagram-env:
     branch: null
     repository: null
 global:
-  application_name: udagram
+  application_name: egfwd-udagram
   default_ec2_keyname: null
   default_platform: Node.js 16 running on 64bit Amazon Linux 2
   default_region: us-east-1
@@ -16,6 +16,6 @@ global:
   instance_profile: null
   platform_name: null
   platform_version: null
-  profile: null
+  profile: default
   sc: null
   workspace_type: Application
