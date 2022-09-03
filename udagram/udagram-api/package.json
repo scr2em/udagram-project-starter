@@ -5,7 +5,7 @@
   "engines": {
     "node": "14.15.0"
   },
-  "main": "./www/server.js",
+  "main": "server.js",
   "scripts": {
     "start": "node .",
     "tsc": "npx tsc",
