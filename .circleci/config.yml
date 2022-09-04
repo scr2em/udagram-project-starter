@@ -42,4 +42,7 @@ jobs:
 workflows:
   udagram:
     jobs:
-      - build
+      - build:
+        - Branches:
+            only:
+              - master
